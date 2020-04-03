@@ -38,8 +38,9 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
  
-  if array.include?("cheddar") do |item|
-    
+  if array.any? do |item|
+   ("cheddar","gouda","camembert").include?(item) 
+   "#{item}"
     end
   end
 end
@@ -47,7 +48,11 @@ end
 
 
 
+puts "yay" if [1, 2, 3].all? { |i| (1..9).include?(i) }
+# => "yay"
 
+puts "nope" if [1, 2, 3, 'A'].any? { |i| not (1..9).include?(i) }
+# => "nope"
 
 
 
