@@ -43,7 +43,7 @@ def find_the_cheese(array)
     array.include?(cheese_types)
   end
  a_3
-  
+  binding.pry
 end
 
 
