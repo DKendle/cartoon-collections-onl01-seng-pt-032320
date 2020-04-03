@@ -43,7 +43,7 @@ def find_the_cheese(array)
     cheese_types.include?(item)
       end
     end
-  end
+
 end
 
 
