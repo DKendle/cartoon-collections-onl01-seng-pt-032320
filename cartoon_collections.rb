@@ -41,9 +41,10 @@ def find_the_cheese(array)
   
   array.find do |item|
     cheese_types.include?(item)
-      if true "#{item}"
+      if true 
       end
     end
+    #{item}
   end
 end
 
