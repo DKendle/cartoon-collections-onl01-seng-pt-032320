@@ -43,9 +43,8 @@ def find_the_cheese(array)
    new_array << ("cheddar").include?(item) 
    "#{item}"
     end
+  end
     new_array
-
-
 end
 
 
