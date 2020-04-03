@@ -44,8 +44,8 @@ def find_the_cheese(array)
    "#{item}"
     end
     new_array
-  end
-end
+
+
 end
 
 
