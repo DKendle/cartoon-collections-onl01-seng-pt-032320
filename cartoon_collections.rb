@@ -37,28 +37,17 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  a_3 = []
   
-   array.find do |item|
-    if array.include?()
-  end
-
+  
+  array.any? do |i|
+    cheese_types.include? i
   end
 end
 
 
 
-#puts "yay" if [1, 2, 3].all? { |i| (1..9).include?(i) }
-# => "yay"
 
-#puts "nope" if [1, 2, 3, 'A'].any? { |i| not (1..9).include?(i) #}
-# => "nope"
-
-
-#array.any? do |item|
-      #cheese_types.include?(item) 
-   # end
-      #"#{item}"
+#[2, 6, 13, 99, 27].any? { |i| [6, 13].include? i }
 
 
 
