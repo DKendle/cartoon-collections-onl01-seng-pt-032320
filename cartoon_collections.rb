@@ -44,9 +44,6 @@ def find_the_cheese(array)
   end
  a_3
   
-      
-  end
-end
 end
 
 
