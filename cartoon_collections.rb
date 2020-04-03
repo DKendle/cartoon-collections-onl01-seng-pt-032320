@@ -40,7 +40,7 @@ def find_the_cheese(array)
   a_3 = []
   
    array.find do |item|
-   a_3 << if array.include?(cheese_types)
+   a_3 << if array.include?(item == cheese_types)
   end
 
   binding.pry
