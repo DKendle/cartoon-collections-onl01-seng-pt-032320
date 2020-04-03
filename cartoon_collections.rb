@@ -43,8 +43,8 @@ def find_the_cheese(array)
     cheese_types.include?(item)
       if true 
       end
-    #{item}
     end
+        #{item}
   end
 
 
