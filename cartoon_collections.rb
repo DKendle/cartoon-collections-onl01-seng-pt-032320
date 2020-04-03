@@ -36,13 +36,14 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-
   cheese_types = ["cheddar", "gouda", "camembert"]
- 
-  array.any? do |item|
-      cheese_types.include?(item) 
-    end
-      "#{item}"
+  a_3 = []
+  
+  a_3 = array.find do |item|
+    array.include?(cheese_types)
+  end
+ a_3
+  
       
   end
 end
@@ -57,7 +58,10 @@ end
 # => "nope"
 
 
-
+#array.any? do |item|
+      #cheese_types.include?(item) 
+   # end
+      #"#{item}"
 
 
 
