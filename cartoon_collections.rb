@@ -40,11 +40,11 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
  
   array.any? do |item|
-   new_array << ("cheddar").include?(item) 
+      cheese_types.include?(item) 
    "#{item}"
     end
   end
-    new_array
+
 end
 
 
